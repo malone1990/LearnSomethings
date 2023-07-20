@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MediatRCQRS.Webapi.Application\MediatRCQRS.Webapi.Application.csproj" />
     <ProjectReference Include="..\MediatRCQRS.Webapi.Core\MediatRCQRS.Webapi.Core.csproj" />
+    <ProjectReference Include="..\MediatRCQRS.Webapi.newApp\MediatRCQRS.Webapi.newApp.csproj" />
   </ItemGroup>
 
 </Project>

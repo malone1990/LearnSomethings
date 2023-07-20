@@ -5,9 +5,11 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatRCQRS.Webapi", "MediatRCQRS\MediatRCQRS.Webapi.csproj", "{8C2AE964-863D-42CB-9079-0D289288DC03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRCQRS.Webapi.Application", "MediatRCQRS.Webapi.Application\MediatRCQRS.Webapi.Application.csproj", "{71F1E842-73C8-428F-B9B1-E6C7F4451BEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatRCQRS.Webapi.Application", "MediatRCQRS.Webapi.Application\MediatRCQRS.Webapi.Application.csproj", "{71F1E842-73C8-428F-B9B1-E6C7F4451BEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRCQRS.Webapi.Core", "MediatRCQRS.Webapi.Core\MediatRCQRS.Webapi.Core.csproj", "{367EB901-026B-429E-86D6-913D4FE94EE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatRCQRS.Webapi.Core", "MediatRCQRS.Webapi.Core\MediatRCQRS.Webapi.Core.csproj", "{367EB901-026B-429E-86D6-913D4FE94EE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRCQRS.Webapi.newApp", "MediatRCQRS.Webapi.newApp\MediatRCQRS.Webapi.newApp.csproj", "{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,26 @@ Global
 		{367EB901-026B-429E-86D6-913D4FE94EE3}.Release|x64.Build.0 = Release|Any CPU
 		{367EB901-026B-429E-86D6-913D4FE94EE3}.Release|x86.ActiveCfg = Release|Any CPU
 		{367EB901-026B-429E-86D6-913D4FE94EE3}.Release|x86.Build.0 = Release|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Debug|ARM.Build.0 = Debug|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Debug|x64.Build.0 = Debug|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Debug|x86.Build.0 = Debug|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Release|ARM.ActiveCfg = Release|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Release|ARM.Build.0 = Release|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Release|ARM64.Build.0 = Release|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Release|x64.ActiveCfg = Release|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Release|x64.Build.0 = Release|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Release|x86.ActiveCfg = Release|Any CPU
+		{3E27557E-D8A6-4141-8A27-BDAB347AF6D0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
