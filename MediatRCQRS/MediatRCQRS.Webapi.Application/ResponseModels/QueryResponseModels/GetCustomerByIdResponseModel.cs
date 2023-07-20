@@ -1,0 +1,4 @@
+﻿namespace MediatRCQRS.ResponseModels.QueryResponseModels
+{
+    
+}
