@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "IC/PfWR+d6YPDOkctUQMYKZrU4gBqLegzti1GuTnGVs=",
-  "Source": "MediatR&CQRS.Webapi",
-  "BasePath": "_content/MediatR&CQRS.Webapi",
+  "Hash": "kU4R0PCnEGVL8GQcBC5oQDgqTo1sg8COvWc1KOm08Us=",
+  "Source": "MediatRCQRS.Webapi",
+  "BasePath": "_content/MediatRCQRS.Webapi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

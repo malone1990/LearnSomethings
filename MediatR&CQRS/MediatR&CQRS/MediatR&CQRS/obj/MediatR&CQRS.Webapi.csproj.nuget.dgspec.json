@@ -33,7 +33,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\73180\\source\\repos\\LearnSomethings\\MediatR&CQRS\\MediatR&CQRS\\MediatRCQRS.Webapi.Application\\MediatRCQRS.Webapi.Application.csproj": {
+                "projectPath": "C:\\Users\\73180\\source\\repos\\LearnSomethings\\MediatR&CQRS\\MediatR&CQRS\\MediatRCQRS.Webapi.Application\\MediatRCQRS.Webapi.Application.csproj"
+              },
+              "C:\\Users\\73180\\source\\repos\\LearnSomethings\\MediatR&CQRS\\MediatR&CQRS\\MediatRCQRS.Webapi.Core\\MediatRCQRS.Webapi.Core.csproj": {
+                "projectPath": "C:\\Users\\73180\\source\\repos\\LearnSomethings\\MediatR&CQRS\\MediatR&CQRS\\MediatRCQRS.Webapi.Core\\MediatRCQRS.Webapi.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -45,16 +52,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "MediatR": {
-              "target": "Package",
-              "version": "[11.1.0, )"
-            },
-            "MediatR.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[11.1.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -70,6 +67,170 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\73180\\source\\repos\\LearnSomethings\\MediatR&CQRS\\MediatR&CQRS\\MediatRCQRS.Webapi.Application\\MediatRCQRS.Webapi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\73180\\source\\repos\\LearnSomethings\\MediatR&CQRS\\MediatR&CQRS\\MediatRCQRS.Webapi.Application\\MediatRCQRS.Webapi.Application.csproj",
+        "projectName": "MediatRCQRS.Webapi.Application",
+        "projectPath": "C:\\Users\\73180\\source\\repos\\LearnSomethings\\MediatR&CQRS\\MediatR&CQRS\\MediatRCQRS.Webapi.Application\\MediatRCQRS.Webapi.Application.csproj",
+        "packagesPath": "C:\\Users\\73180\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\73180\\source\\repos\\LearnSomethings\\MediatR&CQRS\\MediatR&CQRS\\MediatRCQRS.Webapi.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\73180\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/pomelo-efcore/Pomelo.EntityFrameworkCore.MySql/_packaging/pomelo-efcore-public/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\73180\\source\\repos\\LearnSomethings\\MediatR&CQRS\\MediatR&CQRS\\MediatRCQRS.Webapi.Core\\MediatRCQRS.Webapi.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\73180\\source\\repos\\LearnSomethings\\MediatR&CQRS\\MediatR&CQRS\\MediatRCQRS.Webapi.Core\\MediatRCQRS.Webapi.Core.csproj",
+        "projectName": "MediatRCQRS.Webapi.Core",
+        "projectPath": "C:\\Users\\73180\\source\\repos\\LearnSomethings\\MediatR&CQRS\\MediatR&CQRS\\MediatRCQRS.Webapi.Core\\MediatRCQRS.Webapi.Core.csproj",
+        "packagesPath": "C:\\Users\\73180\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\73180\\source\\repos\\LearnSomethings\\MediatR&CQRS\\MediatR&CQRS\\MediatRCQRS.Webapi.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\73180\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/pomelo-efcore/Pomelo.EntityFrameworkCore.MySql/_packaging/pomelo-efcore-public/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\73180\\source\\repos\\LearnSomethings\\MediatR&CQRS\\MediatR&CQRS\\MediatRCQRS.Webapi.Application\\MediatRCQRS.Webapi.Application.csproj": {
+                "projectPath": "C:\\Users\\73180\\source\\repos\\LearnSomethings\\MediatR&CQRS\\MediatR&CQRS\\MediatRCQRS.Webapi.Application\\MediatRCQRS.Webapi.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Serilog.Enrichers.CorrelationId": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Exceptions": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
