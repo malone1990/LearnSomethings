@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "gakEVHH2z3psGhNWTlo4/Uyg2XoXKcmHdex4q+8EcpaaVRis12Q1TbW/NNBJ/Yu0eQ7r/OLMFOtvnqcNDbgPDA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\73180\\source\\repos\\LearnSomethings\\MediatR&CQRS\\MediatR&CQRS\\MediatR&CQRS\\MediatR&CQRS.Webapi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\73180\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\73180\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\73180\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\73180\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

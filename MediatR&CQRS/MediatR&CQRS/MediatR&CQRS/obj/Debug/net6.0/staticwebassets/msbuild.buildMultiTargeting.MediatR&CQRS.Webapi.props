@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MediatR&amp;CQRS.Webapi.props" />
+</Project>
