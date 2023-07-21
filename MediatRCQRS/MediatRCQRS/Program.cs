@@ -1,3 +1,4 @@
+using CqrsMediatrExample.DataStore;
 using MediatRCQRS.Webapi.Core;
 using Serilog;
 
@@ -11,6 +12,8 @@ internal class Program
             builder.AddSerilog("Api  MediatR & CQRS");
 
             // Add services to the container.
+
+            builder.Services.AddSingleton<FakeDataStore>();
             builder.Services.AddRouting(options => options.LowercaseUrls = true);
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();

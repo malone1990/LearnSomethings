@@ -2,6 +2,7 @@
 using MediatRCQRS.Webapi.Application.Handlers.QueryHandlers;
 using MediatRCQRS.Webapi.newApp.Commands;
 using MediatRCQRS.Webapi.newApp.Queries;
+using MediatRCQRS.Webapi.newApp.Record;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MediatRCQRS.Controller
@@ -22,6 +23,16 @@ namespace MediatRCQRS.Controller
             var response = await _mediator.Send(product);
             return Ok(response);
         }
+
+
+        [HttpGet("record/{id:int}", Name = "GetProductById")]//{id:int}
+        public async Task<ActionResult> GetProductById(int id)
+        {
+            var product = await _mediator.Send(new GetProductByIdQuery(id));
+
+            return Ok(product);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Save([FromBody] NoReturnIRequest product)
         {
